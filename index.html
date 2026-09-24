@@ -406,7 +406,7 @@
         .services-grid {
             display: grid;
 
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(5, 1fr);
 
             gap: 1px;
 
@@ -584,6 +584,12 @@
                 linear-gradient(135deg,
                     #171719,
                     #0d0d0e);
+        }
+
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .project-image::before {
@@ -1034,6 +1040,7 @@
 
             font-size: 10px;
         }
+
         .socials {
             display: flex;
 
@@ -1446,7 +1453,7 @@
                 <div class="hero-content">
 
                     <div class="hero-label">
-                        Python Developer · Backend Developer
+                        Python Django Developer
                     </div>
 
                     <h1>
@@ -1462,7 +1469,8 @@
 
                     <p class="hero-description">
 
-                        I build scalable web applications with Python &amp; Django, combining clean backend architecture,
+                        I build scalable web applications with Python &amp; Django, combining clean backend
+                        architecture,
                         modern UI, and performance-driven development to create seamless digital experiences.
 
 
@@ -1579,10 +1587,9 @@
 
                     <ul>
 
-                        <li>HTML, CSS, JavaScript</li>
-
+                        <li>HTML, CSS</li>
                         <li>Tailwind CSS, Bootstrap</li>
-
+                        <li>JavaScript, JQuery, GSAP</li>
                         <li>Responsive Design</li>
 
                     </ul>
@@ -1617,6 +1624,72 @@
                         <li>Data Modeling</li>
 
                         <li>Query Optimization</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="service-card reveal">
+
+                    <div class="service-number">
+                        04
+                    </div>
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+
+                    <h3>
+                        Data Science &amp; Analysis
+                    </h3>
+
+                    <p>
+
+                        Analyzing and visualizing data to derive actionable insights using Python and business
+                        intelligence tools.
+
+                    </p>
+
+                    <ul>
+
+                        <li>NumPy &amp; Pandas</li>
+
+                        <li>Matplotlib &amp; Seaborn</li>
+
+                        <li>MS Excel &amp; Power BI</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="service-card reveal">
+
+                    <div class="service-number">
+                        05
+                    </div>
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+
+                    <h3>
+                        AI Tools
+                    </h3>
+
+                    <p>
+
+                        Leveraging advanced AI tools and models to accelerate development, improve code quality, and
+                        automate workflows.
+
+                    </p>
+
+                    <ul>
+
+                        <li>ChatGPT</li>
+                        <li>Claude</li>
+                        <li>Stitch</li>
+
+                        <li>Antigravity</li>
 
                     </ul>
 
@@ -1789,7 +1862,7 @@
 
                         <div class="skill-top">
 
-                            <span>Data Analysis (Pandas, NumPy)</span>
+                            <span>Data Analysis (NumPy, Pandas, Matplotlib, Seaborn, MS Excel, Power BI)</span>
 
                             <span>75%</span>
 
@@ -1876,12 +1949,7 @@
                 <!-- PROJECT 1 -->
                 <div class="project-card reveal">
                     <div class="project-image">
-                        <div class="mockup">
-                            <div class="mockup-top"></div>
-                            <div class="mockup-line"></div>
-                            <div class="mockup-line small"></div>
-                            <div class="mockup-line"></div>
-                        </div>
+                        <img src="bookswap.png" alt="BookSwap">
                     </div>
                     <div class="project-content">
                         <small>
@@ -1899,21 +1967,13 @@
                             title="GitHub Repo" aria-label="GitHub Repository">
                             <i class="fa-brands fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="#" target="_blank" class="view-project" title="Live Demo" aria-label="Live Demo">
-                            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                        </a>
                     </div>
                 </div>
 
                 <!-- PROJECT 2 -->
                 <div class="project-card reveal">
                     <div class="project-image">
-                        <div class="mockup">
-                            <div class="mockup-top"></div>
-                            <div class="mockup-line"></div>
-                            <div class="mockup-line small"></div>
-                            <div class="mockup-line"></div>
-                        </div>
+                        <img src="tour.png" alt="Tour">
                     </div>
                     <div class="project-content">
                         <small>
@@ -1931,25 +1991,17 @@
                             title="GitHub Repo" aria-label="GitHub Repository">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="#" target="_blank" class="view-project" title="Live Demo" aria-label="Live Demo">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
                     </div>
                 </div>
 
                 <!-- PROJECT 3 -->
                 <div class="project-card reveal">
                     <div class="project-image">
-                        <div class="mockup">
-                            <div class="mockup-top"></div>
-                            <div class="mockup-line"></div>
-                            <div class="mockup-line small"></div>
-                            <div class="mockup-line"></div>
-                        </div>
+                        <img src="pellmell.png" alt="pellmell">
                     </div>
                     <div class="project-content">
                         <small>
-                            Frontend | HTML | CSS | JavaScript
+                            Frontend | HTML | CSS | Tailwind CSS| JavaScript | GSAP
                         </small>
                         <h3>
                             pellmell
@@ -1973,16 +2025,11 @@
                 <!-- PROJECT 4 -->
                 <div class="project-card reveal">
                     <div class="project-image">
-                        <div class="mockup">
-                            <div class="mockup-top"></div>
-                            <div class="mockup-line"></div>
-                            <div class="mockup-line small"></div>
-                            <div class="mockup-line"></div>
-                        </div>
+                        <img src="electric-scoop.png" alt="electric-scoop">
                     </div>
                     <div class="project-content">
                         <small>
-                            Frontend | HTML | CSS | JavaScript
+                            Frontend | HTML | Tailwind CSS | JavaScript
                         </small>
                         <h3>
                             electric-scoop
@@ -2128,7 +2175,8 @@
 
                         </p>
 
-                        <a href="Darshana_Kachhadiya_Resume.pdf" download="Darshana_Kachhadiya_Resume.pdf" class="button button-gold">
+                        <a href="Darshana_Kachhadiya_Resume.pdf" download="Darshana_Kachhadiya_Resume.pdf"
+                            class="button button-gold">
 
                             Download Resume (PDF)
 
@@ -2211,7 +2259,8 @@
 
                     <div class="socials mt-25">
 
-                        <a href="https://www.linkedin.com/in/darshana-kachhadiya-2a02503b1" aria-label="LinkedIn Profile">
+                        <a href="https://www.linkedin.com/in/darshana-kachhadiya-2a02503b1"
+                            aria-label="LinkedIn Profile">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
 
